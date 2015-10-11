@@ -6,7 +6,7 @@ To use workflows, you have to buy Powerpack :)
 
 # How to install?
 
-1. Download Char [Counter.alfredworkflow](https://github.com/metalunk/CharCounter/blob/master/Char%20Counter.alfredworkflow)
+1. Download [CharCounter.alfredworkflow](https://github.com/metalunk/CharCounter/blob/master/CharCounter.alfredworkflow)
 2. Double click downloaded file
 3. Alfred will start
 4. Choose 'import'
