@@ -10,15 +10,12 @@ To use workflows, you have to buy Powerpack :)
 2. Double click downloaded file
 3. Alfred will start
 4. Choose 'import'
-  * ![2015-10-08 2 33 10 pm](https://cloud.githubusercontent.com/assets/3294475/10358462/8daa85e2-6dc9-11e5-97aa-f201cf65c37d.png)
-
-/usr/local/bin/ruby: '>=1.9' is recommended.
-
-If you use older version, this will not work when you use multibyte char.
 
 # How to use?
 
-1. Input "count [string]" in Alfred and push Enter key
-  * ![2015-10-08 2 18 55 pm](https://cloud.githubusercontent.com/assets/3294475/10358403/e219670c-6dc8-11e5-95ec-642803e0a6a3.png)
-2. Notification will show count of string
-  * ![2015-10-08 2 19 06 pm](https://cloud.githubusercontent.com/assets/3294475/10358437/34f3befa-6dc9-11e5-8b2f-0d9dee5dcea6.png)
+1. Input "count [string]" in Alfred window
+2. Count of input chars will be shown in Alfred window
+3. Push Enter key, count will be copied in your clipboard
+
+![2015-10-14 8 08 54 pm](https://cloud.githubusercontent.com/assets/3294475/10481985/746ebc70-72af-11e5-94a6-31ce73813887.png)
+
