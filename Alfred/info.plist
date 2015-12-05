@@ -33,21 +33,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>7517479B-FC25-42BB-AB43-A80ED4B1A8FA</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -69,7 +54,7 @@
 $wf = new Workflows();
 
 $input = "{query}";
-$count = mb_strlen($input);
+$count = mb_strlen($input, 'UTF-8');
 $wf-&gt;result(0, $count, 'Char count : ' . $count, '', '');
 $wf-&gt;results();
 echo $wf-&gt;toxml();</string>
@@ -86,6 +71,21 @@ echo $wf-&gt;toxml();</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>F7296711-4BA2-4489-A211-6B78EB5E3C0B</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>7517479B-FC25-42BB-AB43-A80ED4B1A8FA</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
